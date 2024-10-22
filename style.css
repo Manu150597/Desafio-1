@@ -1,0 +1,153 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Poppins", sans-serif
+}
+
+header {
+    margin-top: 47px;
+    margin-left: 42px;
+}
+
+a {
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 21px;
+    text-align: center;
+    color: #17233D;
+    margin-right: 32px;
+    letter-spacing: 0.875px;
+    cursor: pointer;
+}
+
+.sing-up {
+    width: 124px;
+    height: 51px;
+    border-radius: 6px;
+    border: 1px solid #4CB538;
+    background: #6FBF44;
+    color: #FFFFFF;
+    font-size: 16px;
+    font-weight: 500;
+    line-height: 24px;
+    letter-spacing: 1px;
+    cursor: pointer;
+
+}
+
+img {
+    margin: 163px 0 0 121px;
+    display: inline-block;
+}
+
+h1 {
+
+    font-size: 62px;
+    font-weight: 700;
+    line-height: 82px;
+    letter-spacing: 0.5961538553237915px;
+    color: #161A49;
+}
+
+p {
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 33px;
+    letter-spacing: 0.5px;
+    color: #4B505A;
+    margin-top: 55px;
+    margin-bottom: 57px;
+
+}
+
+div {
+    display: inline-block;
+    margin-left: 85px;
+    width: 493px;
+
+}
+
+.learn-more {
+
+    font-size: 18px;
+    font-weight: 500;
+    line-height: 27px;
+    letter-spacing: 1px;
+    color: #6FBF44;
+    cursor: pointer;
+    border: none;
+    background: transparent;
+}
+
+@media screen and (max-width: 1300px) {
+
+    a {
+        display: none;
+    }
+
+    header {
+        margin: 0;
+    }
+
+    .sing-up {
+        width: 91px;
+        height: 31px;
+        margin-top: 13px;
+        margin-left: 250px;
+    }
+
+
+
+    img {
+        display: flex;
+        width: 312px;
+        height: 218px;
+        margin-top: 360px;
+        margin-left: 33px;
+        position: absolute;
+
+    }
+
+    div {
+        margin-left: 40px;
+        width: 304px;
+        height: 165px;
+        margin-bottom: 0;
+        margin-top: 85px;
+
+    }
+
+    h1 {
+        Width: 278px;
+        Height: 60px;
+        font-size: 30px;
+        font-weight: 700;
+        line-height: 30px;
+        letter-spacing: 0.5961538553237915px;
+        text-align: center;
+    }
+
+
+    p {
+
+        font-size: 18px;
+        font-weight: 400;
+        line-height: 33px;
+        letter-spacing: 0.5px;
+        text-align: center;
+        width: 304px;
+        height: 165px;
+        margin: 0;
+
+    }
+
+    .learn-more {
+        font-size: 18px;
+        font-weight: 500;
+        line-height: 27px;
+        letter-spacing: 1px;
+        text-align: left;
+        margin-left: 30%
+    }
+}
